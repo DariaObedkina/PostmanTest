@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "ea486d01-b1d8-4c9c-b0c4-615b923ab0bc",
+		"name": "Integation test collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "15900863-ea486d01-b1d8-4c9c-b0c4-615b923ab0bc"
+	},
+	"item": [
+		{
+			"name": "/store/inventory",
+			"id": "2bf5a759-e1c0-4395-b3b6-fa3397350707",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"accept": true
+				},
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "https://petstore.swagger.io/v2/store/inventory",
+					"protocol": "https",
+					"host": [
+						"petstore",
+						"swagger",
+						"io"
+					],
+					"path": [
+						"v2",
+						"store",
+						"inventory"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
